@@ -9,9 +9,15 @@ Next behaves differently for development and production. In development, Next is
 
 ## Out of the box
 - Next automatically does code splitting, which means that it will only load the code that is needed for the current page.
+
 - Server-side rendering, which means API calls typically made on the client side are made on the server side. This is done to improve performance and SEO.
-- <Link> component, which is a wrapper around the <a> tag. It is used to navigate between pages without reloading the entire page. Use an <a> tag for external links.
-- <Image> component, which is a wrapper around the <img> tag. It is used to optimize images for performance and SEO.
-- <Head> component, which is a wrapper around the <head> tag. It is used to add metadata to the page.
-- <Script> component, which is a wrapper around the <script> tag. It is used to add scripts to the page.
+
+- `<Link>` component, which is a wrapper around the `<a>` tag. It is used to navigate between pages without reloading the entire page. Use an `<a>` tag for external links.
+
+- `<Image>` component, which is a wrapper around the `<img>` tag. It is used to optimize images for performance and SEO.
+
+- `<Head>` component, which is a wrapper around the `<head>` tag. It is used to add metadata to the page.
+
+- `<Script>` component, which is a wrapper around the `<script>` tag. It is used to add scripts to the page.
+
 - a page in Next is a React component exported from a file in the pages directory and corresponds to a route.
