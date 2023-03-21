@@ -21,3 +21,9 @@ Next behaves differently for development and production. In development, Next is
 - `<Script>` component, which is a wrapper around the `<script>` tag. It is used to add scripts to the page.
 
 - a page in Next is a React component exported from a file in the pages directory and corresponds to a route.
+
+- `_app.js` is a special file that is used to initialize pages. It is used to initialize things that are common to all pages, such as layout and sets up global state management.
+
+- `layout.js` is used to define the layout of a page, such as adding a header, navbar and footer. It also styles the layout page and autmatically creates unique class names to avoid conflicts.
+
+- importing CSS files as modules is supported. This is done by adding the `module` keyword to the CSS file name. For example, `styles.module.css`.
