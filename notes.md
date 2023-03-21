@@ -27,3 +27,9 @@ Next behaves differently for development and production. In development, Next is
 - `layout.js` is used to define the layout of a page, such as adding a header, navbar and footer. It also styles the layout page and autmatically creates unique class names to avoid conflicts.
 
 - importing CSS files as modules is supported. This is done by adding the `module` keyword to the CSS file name. For example, `styles.module.css`.
+
+- Static Generation is used to generate HTML at build time. It is used for pages that do not need to be updated frequently. It is also used for pages that do not need to fetch data from an external API.
+
+- Server-side Rendering is used to generate HTML on each request. It is used for pages that need to fetch data from an external API.
+
+- `getStaticProps` is used to fetch data at build time for static generation. It is used to fetch data from an external API and pass it to a page as props.
