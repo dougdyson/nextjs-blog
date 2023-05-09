@@ -32,4 +32,4 @@ Next behaves differently for development and production. In development, Next is
 
 - Server-side Rendering is used to generate HTML on each request. It is used for pages that need to fetch data from an external API.
 
-- `getStaticProps` is used to fetch data at build time for static generation. It is used to fetch data from an external API and pass it to a page as props.
+- `getStaticProps` is used to fetch data at build time for static generation. It is used to fetch data from an external API and pass it to a page as props
